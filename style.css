@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* text-box section start here */
+.login-box{
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.login-box h2{
+    margin-bottom: 10px;
+    color: #0866ff;
+    font-size: 30px;
+}
+.text-box {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.text-box input {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 8px;
+    outline-color: #0044ff;
+}
+/* text-box section ends here  */
+/* login section start here  */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: #0044ff;
+}
+
+/* login section ends here  */
+
+.forget > a{
+    margin: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.forget > a:hover{
+    text-decoration: underline;
+}
+/* create botton section start here  */
+.new button{
+    margin-top: 60px;
+    width: 100%;
+    padding: 7px;
+    color: #0026ff;
+    border: 1px solid rgb(0, 30, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: #c5c5c5;
+}
+/* create botton section ends here  */
+.end{
+    margin: 10px;
+    font-size: 13px;
+}
